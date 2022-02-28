@@ -62,6 +62,14 @@ public class HashCode_and_Equals_Methods {
         ОБЪЕКТОВ НЕ ОБЯЗАТЕЛЬНО ДОЛЖНЫ БЫТЬ РАВНЫ "КОЛЛИЗИИ" - ЭТО КОГДА
         HASHCODE РАВНЫ, ЧЕМ ИХ МЕНЬШЕ ТЕМ ЛУЧШЕ
          */
+
+        // Реализация интерфейса Map также позволяет получить наборы как ключей,
+        // так и значений. А метод entrySet() возвращает набор всех элементов в виде ОБЪЕКТОВ
+        // Map.Entry<K, V>. getKey() - для получения ключа, entry.getValue - для получения значения
+        // ОСНОВНОЕ ОТЛИЧЕ ЧТО ОН ПРОХОДИТ ПО КЛЮЧ-ЗНАЧЕНИЕ, а не только по 1 как я понял
+        for (Map.Entry<Student, Double> entry: student.entrySet()) {
+            System.out.println(entry.getKey() + " : " + entry.getValue());
+        }
     }
 
 }
