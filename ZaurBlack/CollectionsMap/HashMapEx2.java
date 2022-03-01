@@ -1,4 +1,4 @@
-package Zaur.CollectionsMap;
+package ZaurBlack.CollectionsMap;
 
 import java.util.HashMap;
 import java.util.Map;

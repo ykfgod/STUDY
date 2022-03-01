@@ -1,4 +1,4 @@
-package Zaur.Collections;
+package ZaurBlack.Collections;
 
 import java.util.Vector;
 
