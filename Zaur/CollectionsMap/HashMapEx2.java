@@ -1,4 +1,4 @@
-package CollectionsMap;
+package Zaur.CollectionsMap;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -32,7 +32,7 @@ public class HashMapEx2 {
 
         // Если бы мы не поставили final для класса Student1 и его полей
         // и заменили курс у студента выдало бы false, потому что изменился
-        // hashCode студента. Поэтому класс и все его поля должны быть immutable
+        // hashCode студента. Поэтому класс и все его поля должны быт...............ь immutable
         // (не изменяемые), для этого мы ставим final
 //        System.out.println(map1.containsKey(st1));
 //        st1.course = 4;

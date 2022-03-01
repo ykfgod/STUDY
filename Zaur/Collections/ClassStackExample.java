@@ -1,4 +1,4 @@
-package Collections;
+package Zaur.Collections;
 
 import java.util.Stack;
 
