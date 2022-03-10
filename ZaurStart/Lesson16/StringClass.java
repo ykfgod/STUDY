@@ -90,5 +90,9 @@ public class StringClass {
         // Methods chaining цепь методов для строки
         System.out.println();
         System.out.println(s.replace("Shangin", "Putin").trim().substring(9,14));
+
+        // Method isEmpty() проверяет пустая ли строка
+        System.out.println();
+        System.out.println(s.isEmpty());
     }
 }
