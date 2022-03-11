@@ -87,7 +87,7 @@ public class StringBilder_class {
         // method equals() не переопределен для StringBuilder, и работает как ==
         StringBuilder a = new StringBuilder("Privet");
         StringBuilder b = new StringBuilder("Privet");
- 
+
         System.out.println(a == b);
         System.out.println(a.equals(b)); // Тоже false
     }
